@@ -57,7 +57,7 @@
         justify-content: center;
         flex-direction: row;
         background-color: #fff;
-        border-radius: 30px;
+        border-radius: 10px;
         padding: 10px;
         gap: 20px;
     }
@@ -107,6 +107,10 @@
         gap: 5px;
     }
 
+    .container .content ul li a p{
+        font-size: 12px;
+    }
+
     .container .content ul li a .circle{
         display: flex;
         align-items: center;
@@ -114,16 +118,21 @@
         background-color: #fff;
         width: 60px;
         height: 60px;
-        border-radius: 50%;
+        border-radius: 10px;
+    }
+
+    .container .content ul li a #ferrari{
+        width: 30px;
+        height: 40px;
     }
 
     .container .content ul li a .circle img{
-        width: 40px;
+        width: 50px;
     }
 
     .container .content .destaque .destaque-img img{
         width: 100%;
-        border-radius: 20px;
+        border-radius: 10px;
     }
 
     .container .content .boxes{
@@ -146,7 +155,7 @@
         background-color: #fff;
         width: 170px;
         height: 200px;
-        border-radius: 20px;
+        border-radius: 10px;
     }
 }
 
