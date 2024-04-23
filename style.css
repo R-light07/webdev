@@ -1,0 +1,129 @@
+@media only screen and (max-width: 390px) {
+    *{
+        font-family: "Poppins", sans-serif;
+    }
+
+    body{
+        background-image: url(img/background.png);
+    }
+
+    .menu{
+        width: 90%;
+        margin: auto;
+    }
+
+    .menu_items{
+        display: flex;
+        padding: 20px 0 80px;
+        margin: auto;
+    }
+
+    .menu_items .profile img{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(85, 175, 253);
+        border-radius: 50px;
+    }
+
+    .menu_items .menu_btn{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        right: 0;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+
+    .container .content .search_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .container .content .search_box img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .container .content .search_box #search{
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+
+    .container .content ul{
+        display: flex;
+        overflow: hidden;
+        overflow-x: scroll;
+        align-items: center;
+        margin: 0 0 0 -30px;
+        gap: 20px;
+    }
+
+    .container .content ul li{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .container .content ul li a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #1E1E1E;
+    }
+
+    .container .content ul li a .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .container .content ul li a .circle img{
+        width: 40px;
+    }
+
+    .container .content .destaque .destaque-img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .container .content .boxes{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+
+    .container .content .boxes .box-car{
+        display: flex;
+        gap: 20px;
+    }
+
+    .container .content .boxes .box-car .box{
+        background-color: #fff;
+        width: 170px;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
+
