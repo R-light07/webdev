@@ -1,5 +1,8 @@
 @media only screen and (max-width: 390px) {
     *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
         font-family: "Poppins", sans-serif;
     }
 
@@ -14,7 +17,7 @@
 
     .menu_items{
         display: flex;
-        padding: 20px 0 80px;
+        padding: 30px 0 70px;
         margin: auto;
     }
 
@@ -30,16 +33,22 @@
         position: absolute;
         display: flex;
         align-items: center;
+        justify-content: end;
         width: 60px;
         height: 60px;
-        right: 0;
+        right: 20px;
     }
 
     .container {
         width: 90%;
         margin: 0 auto;
-        padding: 0 10px;
         overflow: hidden;
+        margin-top: 20px;
+    }
+
+    #brands{
+        width: 100%;
+        padding: 0 0 0 20px;
     }
 
     .container .content .search_box{
@@ -64,12 +73,21 @@
         outline: none;
     }
 
+    .container h1{
+        font-weight: 600;
+        font-size: 32px;
+        background: linear-gradient(to right, #EB3333, #001aff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .container .content ul{
         display: flex;
         overflow: hidden;
         overflow-x: scroll;
         align-items: center;
-        margin: 0 0 0 -30px;
+        margin: 10px 0 0;
         gap: 20px;
     }
 
@@ -86,6 +104,7 @@
         justify-content: center;
         text-decoration: none;
         color: #1E1E1E;
+        gap: 5px;
     }
 
     .container .content ul li a .circle{
@@ -111,7 +130,11 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-    
+    }
+
+    .container .content .boxes h2{
+        font-weight: 400;
+        font-size: 24px;
     }
 
     .container .content .boxes .box-car{
